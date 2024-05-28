@@ -1,43 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Practice 1</title>
     <style>
-        .red  {
+        .red {
             background-color: red;
-            color:green;
+            color: green;
 
         }
+
         #head {
             background-color: red;
             color: white;
 
         }
+
         .blue {
             background-color: red;
             color: black;
         }
+
         .yeloow {
             color: aquamarine;
-        
+
         }
-        .card{
+
+        .card {
             margin: 30px;
             padding: 20px 20px;
             border: 1px solid black;
             border-radius: 5px;
             width: 250px;
         }
-        h2{
+
+        h2 {
             font-style: italic;
             font-size: 26px;
         }
-        
+
+        .card-box {
+            display: flex;
+            margin-left: auto;
+            justify-content: space-between;
+        }
+
+        .card {
+
+            margin: 10px;
+        }
+        .container{
+            width: 1140px;
+            margin: auto;
+            padding: 20px 0px;
+        }
     </style>
 </head>
+
 <body>
     <nav>
         <div class="yeloow">
@@ -51,10 +73,34 @@
     <div class="red blue">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, natus!</div>
     <div id="head">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, rem.</div>
 
-    <div class="card">
-        <h2>My card</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas consequatur facere similique sapiente, voluptate repellendus veritatis culpa porro animi ex repellat beatae a accusamus quae esse. Excepturi, animi possimus, veniam natus, harum sit repudiandae doloribus voluptatibus quam nulla error sed!</p>
+    <div class="container">
+
+        <div class="card-box">
+            <div class="card">
+                <h2>My card</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas consequatur facere similique sapiente,
+                    voluptate repellendus veritatis culpa porro animi ex repellat beatae a accusamus quae esse.
+                    Excepturi,
+                    animi possimus, veniam natus, harum sit repudiandae doloribus voluptatibus quam nulla error sed!</p>
+            </div>
+            <div class="card">
+                <h2>My card</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas consequatur facere similique sapiente,
+                    voluptate repellendus veritatis culpa porro animi ex repellat beatae a accusamus quae esse.
+                    Excepturi,
+                    animi possimus, veniam natus, harum sit repudiandae doloribus voluptatibus quam nulla error sed!</p>
+            </div>
+            <div class="card">
+                <h2>My card</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas consequatur facere similique sapiente,
+                    voluptate repellendus veritatis culpa porro animi ex repellat beatae a accusamus quae esse.
+                    Excepturi,
+                    animi possimus, veniam natus, harum sit repudiandae doloribus voluptatibus quam nulla error sed!</p>
+            </div>
+        </div>
+
     </div>
-    
+
 </body>
+
 </html>
